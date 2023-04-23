@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="container mx-auto mt-12 w-11/12 md:w-3/4">
+    <div class="bg-specialBlue p-6 text-specialWhite flex flex-col mx-auto text-center items-center space-y-6">
+        <h1 class="font-bold text-2xl"> Unit Converter by ARCHA BAJPAI</h1>
+        <input type="text" class="flex bg-transparent border border-specialColor w-20 h-14 text-center justify-center rounded-md text-3xl font-bold placeholder-white focus:outline-none" id="input" placeholder="0">
+        <button class="bg-specialWhite w-24 h-9 text-specialBrown rounded-md" id="convert">Convert</button>
+    </div>
+     <div class="bg-navyBlue py-8">
+       <div class="flex flex-col space-y-4 mx-auto justify-between items-center">
+        <div class="w-11/12 bg-lightBlue text-center p-5 shadow-md shadow-black rounded-md">
+            <h1 class="text-specialColor text-lg">Length (Meter/Feet)</h1>
+            <h2 class="text-sm pt-1 text-specialGray" id="length"></h2>
+        </div>
+        <div class="w-11/12 bg-lightBlue text-center p-5 shadow-md shadow-black rounded-md">
+            <h1 class="text-specialColor text-lg">Volume (Liters/Gallons)</h1>
+            <h2 class="text-sm pt-1 text-specialGray" id="volume"></h2>
+        </div>
+        <div class="w-11/12 bg-lightBlue text-center p-5 shadow-md shadow-black rounded-md">
+            <h1 class="text-specialColor text-lg">Mass (Kilograms/Pounds)</h1>
+            <h2 class="text-sm pt-1 text-specialGray" id="mass"></h2>
+        </div>
+       </div>
+     </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
